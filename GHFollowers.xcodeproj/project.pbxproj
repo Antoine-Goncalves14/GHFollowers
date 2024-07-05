@@ -26,6 +26,7 @@
 		ED887E422C37F80E00F7314E /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E412C37F80E00F7314E /* ErrorMessage.swift */; };
 		ED887E452C380FAE00F7314E /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E442C380FAE00F7314E /* FollowerCell.swift */; };
 		ED887E472C38102D00F7314E /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E462C38102D00F7314E /* GFAvatarImageView.swift */; };
+		ED887E492C38276D00F7314E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E482C38276D00F7314E /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		ED887E412C37F80E00F7314E /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		ED887E442C380FAE00F7314E /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		ED887E462C38102D00F7314E /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		ED887E482C38276D00F7314E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				ED887E412C37F80E00F7314E /* ErrorMessage.swift */,
+				ED887E482C38276D00F7314E /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				ED887E242C36D36800F7314E /* FavoritesListVC.swift in Sources */,
 				ED887E262C36EC2900F7314E /* GFButton.swift in Sources */,
 				ED887E322C373A8000F7314E /* UIViewController+Ext.swift in Sources */,
+				ED887E492C38276D00F7314E /* UIHelper.swift in Sources */,
 				ED887E472C38102D00F7314E /* GFAvatarImageView.swift in Sources */,
 				ED887E222C36D33200F7314E /* SearchVC.swift in Sources */,
 				ED887E302C3734A200F7314E /* GFAlertVC.swift in Sources */,
