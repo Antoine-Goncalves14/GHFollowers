@@ -33,6 +33,7 @@
 		ED887E572C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E562C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift */; };
 		ED887E592C3C167F00F7314E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E582C3C167F00F7314E /* Constants.swift */; };
 		ED887E5B2C3C20E700F7314E /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E5A2C3C20E700F7314E /* GFItemInfoView.swift */; };
+		ED887E5D2C3C24E500F7314E /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E5C2C3C24E500F7314E /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		ED887E562C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		ED887E582C3C167F00F7314E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ED887E5A2C3C20E700F7314E /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		ED887E5C2C3C24E500F7314E /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				ED887E2F2C3734A200F7314E /* GFAlertVC.swift */,
 				ED887E542C3C0F7200F7314E /* GFUserInfoHeaderVC.swift */,
+				ED887E5C2C3C24E500F7314E /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				ED887E262C36EC2900F7314E /* GFButton.swift in Sources */,
 				ED887E322C373A8000F7314E /* UIViewController+Ext.swift in Sources */,
 				ED887E492C38276D00F7314E /* UIHelper.swift in Sources */,
+				ED887E5D2C3C24E500F7314E /* GFItemInfoVC.swift in Sources */,
 				ED887E592C3C167F00F7314E /* Constants.swift in Sources */,
 				ED887E472C38102D00F7314E /* GFAvatarImageView.swift in Sources */,
 				ED887E222C36D33200F7314E /* SearchVC.swift in Sources */,
