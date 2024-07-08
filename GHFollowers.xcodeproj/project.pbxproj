@@ -32,6 +32,7 @@
 		ED887E552C3C0F7200F7314E /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E542C3C0F7200F7314E /* GFUserInfoHeaderVC.swift */; };
 		ED887E572C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E562C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift */; };
 		ED887E592C3C167F00F7314E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E582C3C167F00F7314E /* Constants.swift */; };
+		ED887E5B2C3C20E700F7314E /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E5A2C3C20E700F7314E /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		ED887E542C3C0F7200F7314E /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		ED887E562C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		ED887E582C3C167F00F7314E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED887E5A2C3C20E700F7314E /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				ED887E502C3BD8F900F7314E /* GFEmptyStateView.swift */,
+				ED887E5A2C3C20E700F7314E /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				ED887E472C38102D00F7314E /* GFAvatarImageView.swift in Sources */,
 				ED887E222C36D33200F7314E /* SearchVC.swift in Sources */,
 				ED887E302C3734A200F7314E /* GFAlertVC.swift in Sources */,
+				ED887E5B2C3C20E700F7314E /* GFItemInfoView.swift in Sources */,
 				ED887E452C380FAE00F7314E /* FollowerCell.swift in Sources */,
 				ED887E422C37F80E00F7314E /* GFError.swift in Sources */,
 				ED887E552C3C0F7200F7314E /* GFUserInfoHeaderVC.swift in Sources */,
