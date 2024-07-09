@@ -38,6 +38,7 @@
 		ED887E612C3D267B00F7314E /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E602C3D267B00F7314E /* GFFollowerItemVC.swift */; };
 		ED887E642C3D337B00F7314E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E632C3D337B00F7314E /* Date+Ext.swift */; };
 		ED887E662C3D33B600F7314E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E652C3D33B600F7314E /* String+Ext.swift */; };
+		ED887E682C3D640B00F7314E /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E672C3D640B00F7314E /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		ED887E602C3D267B00F7314E /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		ED887E632C3D337B00F7314E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		ED887E652C3D33B600F7314E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		ED887E672C3D640B00F7314E /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				ED887E3E2C37E6BF00F7314E /* NetworkManager.swift */,
+				ED887E672C3D640B00F7314E /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				ED887E3A2C37E08700F7314E /* Follower.swift in Sources */,
 				ED887E2C2C37325C00F7314E /* GFTitleLabel.swift in Sources */,
 				ED887E642C3D337B00F7314E /* Date+Ext.swift in Sources */,
+				ED887E682C3D640B00F7314E /* PersistenceManager.swift in Sources */,
 				ED887E572C3C0FDF00F7314E /* GFSecondaryTitleLabel.swift in Sources */,
 				ED887E512C3BD8F900F7314E /* GFEmptyStateView.swift in Sources */,
 				ED887E3F2C37E6BF00F7314E /* NetworkManager.swift in Sources */,
