@@ -46,7 +46,12 @@ class FollowerListVC: UIViewController {
         
         view.backgroundColor                                    = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles  = true
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
+        
+        navigationItem.rightBarButtonItem = addButton
     }
+    
     
     func configureCollectionView() {
         
@@ -77,7 +82,7 @@ class FollowerListVC: UIViewController {
         
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return }
-
+            
             self.dismissLoadingView()
             
             switch result {
@@ -93,7 +98,7 @@ class FollowerListVC: UIViewController {
                     return
                 }
                 self.updateData(on: self.followers)
-            
+                
             case .failure(let error) :
                 self.presentGFAlertOnMainThread(title: "Bad Stuff Happend", message: error.rawValue, buttonTitle: "Ok")
             }
@@ -120,6 +125,10 @@ class FollowerListVC: UIViewController {
         
         DispatchQueue.main.async { self.dataSource.apply(snapshot, animatingDifferences: true) }
     }
+    
+    @objc func addButtonTapped() {
+        
+    }
 }
 
 extension FollowerListVC: UICollectionViewDelegate {
@@ -131,7 +140,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         
         if offsetY > contentHeight - height {
             guard hasMoreFollowers else { return }
-
+            
             page += 1
             getFollowers(username: username, page: page)
         }
