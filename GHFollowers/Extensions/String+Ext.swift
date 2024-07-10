@@ -5,10 +5,11 @@
 //  Created by Antoine Goncalves on 09/07/2024.
 //
 
+/* EXTENSION COURANTE ET UTILE À GARDER
+
 import UIKit
 
 extension String {
-    
     func convertToDate() -> Date? {
         
         let dateFormatter           = DateFormatter()
@@ -26,3 +27,5 @@ extension String {
         return date.convertToMonthYearFormat()
     }
 }
+ 
+ */
