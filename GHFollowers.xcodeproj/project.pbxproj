@@ -43,6 +43,7 @@
 		ED887E6D2C3D820200F7314E /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E6C2C3D820200F7314E /* GFTabBarController.swift */; };
 		ED887E6F2C3E80A000F7314E /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E6E2C3E80A000F7314E /* GFAlertContainerView.swift */; };
 		ED887E712C3E8B7100F7314E /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E702C3E8B7100F7314E /* GFDataLoadingVC.swift */; };
+		ED887E732C3EB4C800F7314E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E722C3EB4C800F7314E /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		ED887E6C2C3D820200F7314E /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		ED887E6E2C3E80A000F7314E /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		ED887E702C3E8B7100F7314E /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		ED887E722C3EB4C800F7314E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				ED887E312C373A8000F7314E /* UIViewController+Ext.swift */,
 				ED887E632C3D337B00F7314E /* Date+Ext.swift */,
 				ED887E652C3D33B600F7314E /* String+Ext.swift */,
+				ED887E722C3EB4C800F7314E /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				ED887E2A2C3729DA00F7314E /* FollowerListVC.swift in Sources */,
 				ED887E0E2C36CACE00F7314E /* AppDelegate.swift in Sources */,
 				ED887E102C36CACE00F7314E /* SceneDelegate.swift in Sources */,
+				ED887E732C3EB4C800F7314E /* UIView+Ext.swift in Sources */,
 				ED887E5F2C3C287D00F7314E /* GFRepoItemVC.swift in Sources */,
 				ED887E532C3BE71400F7314E /* UserInfoVC.swift in Sources */,
 			);
