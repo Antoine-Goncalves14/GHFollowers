@@ -8,6 +8,7 @@
 import UIKit
 
 protocol UserInfoVCDelegate: AnyObject {
+    
     func  didRequestFollowers(for username: String)
 }
 
@@ -36,9 +37,7 @@ class UserInfoVC: GFDataLoadingVC {
     
     func configureViewController() {
         view.backgroundColor              = .systemBackground
-        
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
-        
         navigationItem.rightBarButtonItem = doneButton
     }
     
@@ -77,10 +76,10 @@ class UserInfoVC: GFDataLoadingVC {
     }
     
     func layoutUI() {
-        itemViews = [headerView, itemViewOne, itemViewTwo, dateLabel]
-        
         let padding: CGFloat    = 20
         let itemHeight: CGFloat = 140
+        
+        itemViews = [headerView, itemViewOne, itemViewTwo, dateLabel]
         
         for itemView in itemViews {
             contentView.addSubview(itemView)

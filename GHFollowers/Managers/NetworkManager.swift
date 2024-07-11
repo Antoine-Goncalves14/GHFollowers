@@ -8,6 +8,7 @@
 import UIKit
 
 class NetworkManager {
+    
     static let shared   = NetworkManager()
     let baseURL         = "https://api.github.com/users/"
     let cache           = NSCache<NSString, UIImage>()
@@ -40,9 +41,7 @@ class NetworkManager {
             
             do {
                 let decoder                 = JSONDecoder()
-                
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
-                
                 let followers               = try decoder.decode([Follower].self, from: data)
                 
                 completed(.success(followers))
@@ -80,10 +79,8 @@ class NetworkManager {
             
             do {
                 let decoder                     = JSONDecoder()
-                
                 decoder.keyDecodingStrategy     = .convertFromSnakeCase
                 decoder.dateDecodingStrategy    = .iso8601
-                
                 let user = try decoder.decode(User.self, from: data)
                 
                 completed(.success(user))

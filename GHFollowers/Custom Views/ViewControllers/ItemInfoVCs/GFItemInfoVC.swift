@@ -8,6 +8,7 @@
 import UIKit
 
 protocol ItemInfoVCDelegate: AnyObject {
+    
     func didTapGitHubProfile(for user: User)
     func didTapGetFollowers(for user: User)
 }
@@ -63,7 +64,7 @@ class GFItemInfoVC: UIViewController {
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
-        let padding: CGFloat                                = 20
+        let padding: CGFloat = 20
         
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),

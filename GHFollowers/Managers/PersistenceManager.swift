@@ -7,22 +7,18 @@
 
 import UIKit
 
-enum PersistenceActionType {
-    case add, remove
-}
+enum PersistenceActionType { case add, remove }
 
 enum PersistenceManager {
+    
     static private let defaults = UserDefaults.standard
     
-    enum Keys {
-        static let favorites = "favorites"
-    }
+    enum Keys { static let favorites = "favorites" }
     
     static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError?) -> Void) {
         retrieveFavorites { result in
             switch result {
             case .success(var favorites):
-                
                 switch actionType {
                 case .add:
                     guard !favorites.contains(favorite) else {
@@ -31,6 +27,7 @@ enum PersistenceManager {
                     }
                     
                     favorites.append(favorite)
+                    
                 case .remove:
                     favorites.removeAll { $0.login == favorite.login }
                 }
@@ -46,7 +43,6 @@ enum PersistenceManager {
     static func retrieveFavorites(completed: @escaping (Result<[Follower], GFError>) -> Void) {
         guard let favoritesData = defaults.object(forKey: Keys.favorites) as? Data else {
             completed(.success([]))
-            
             return
         }
         

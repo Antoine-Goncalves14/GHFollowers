@@ -8,6 +8,7 @@
 import UIKit
 
 protocol GFRepoItemVCDelegate: AnyObject {
+    
     func didTapGitHubProfile(for user: User)
 }
 
