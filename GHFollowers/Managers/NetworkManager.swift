@@ -39,7 +39,7 @@ class NetworkManager {
     //                return
     //            }
     //
-    //            guard let data = data else {
+    //            guard let data else {
     //                completed(.failure(.invalidData))
     //                return
     //            }
@@ -94,7 +94,7 @@ class NetworkManager {
     //                return
     //            }
     //
-    //            guard let data = data else {
+    //            guard let data else {
     //                completed(.failure(.invalidData))
     //                return
     //            }
@@ -145,10 +145,10 @@ class NetworkManager {
     //
     //        let task = URLSession.shared.dataTask(with: url) {[weak self] data, response, error in
     //
-    //            guard let self = self,
+    //            guard let self,
     //                  error == nil,
     //                  let response = response as? HTTPURLResponse, response.statusCode == 200,
-    //                  let data = data,
+    //                  let data,
     //                  let image = UIImage(data: data) else {
     //                completed(nil)
     //                return

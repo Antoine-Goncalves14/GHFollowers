@@ -109,7 +109,7 @@ class FollowerListVC: GFDataLoadingVC {
         
         //        OLD ASYNC/AWAIT
         //        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-        //            guard let self = self else { return }
+        //            guard let self else { return }
         //
         //            self.dismissLoadingView()
         //
@@ -180,7 +180,7 @@ class FollowerListVC: GFDataLoadingVC {
         }
         
         //        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
-        //            guard let self = self else { return }
+        //            guard let self else { return }
         //
         //            self.dismissLoadingView()
         //
@@ -198,9 +198,9 @@ class FollowerListVC: GFDataLoadingVC {
         let favorite = Follower(login: user.login, avatarUrl: user.avatarUrl)
         
         PersistenceManager.updateWith(favorite: favorite, actionType: .add) { [weak self] error in
-            guard let self = self else { return }
+            guard let self else { return }
             
-            guard let error = error else {
+            guard let error else {
                 self.presentGFAlert(title: "Succes!", message: "You have successfully favorited this user 🎉.", buttonTitle: "Hooray!")
                 return
             }
