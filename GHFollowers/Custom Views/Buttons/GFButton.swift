@@ -29,7 +29,7 @@ class GFButton: UIButton {
         translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func set(color: UIColor, title: String, systemImageName: String) {
+    final func set(color: UIColor, title: String, systemImageName: String) {
         configuration?.baseBackgroundColor  = color
         configuration?.baseForegroundColor  = color
         configuration?.title                = title
@@ -38,4 +38,8 @@ class GFButton: UIButton {
         configuration?.imagePadding         = 6
         configuration?.imagePlacement       = .leading
     }
+}
+
+#Preview {
+    GFButton(color: .blue, title: "Test button", systemImageName: "pencil")
 }
