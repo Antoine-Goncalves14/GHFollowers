@@ -45,6 +45,7 @@
 		ED887E712C3E8B7100F7314E /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E702C3E8B7100F7314E /* GFDataLoadingVC.swift */; };
 		ED887E732C3EB4C800F7314E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E722C3EB4C800F7314E /* UIView+Ext.swift */; };
 		ED887E752C3FC05A00F7314E /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E742C3FC05A00F7314E /* UITableView+Ext.swift */; };
+		ED887E782C4507A700F7314E /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED887E772C4507A700F7314E /* FollowerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		ED887E702C3E8B7100F7314E /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		ED887E722C3EB4C800F7314E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		ED887E742C3FC05A00F7314E /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		ED887E772C4507A700F7314E /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +214,7 @@
 		ED887E432C380F8000F7314E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				ED887E442C380FAE00F7314E /* FollowerCell.swift */,
+				ED887E762C45078800F7314E /* FollowerCell */,
 				ED887E692C3D775A00F7314E /* FavoriteCell.swift */,
 			);
 			path = Cells;
@@ -291,6 +293,15 @@
 			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
+		ED887E762C45078800F7314E /* FollowerCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED887E442C380FAE00F7314E /* FollowerCell.swift */,
+				ED887E772C4507A700F7314E /* FollowerView.swift */,
+			);
+			path = FollowerCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED887E782C4507A700F7314E /* FollowerView.swift in Sources */,
 				ED887E3C2C37E14D00F7314E /* User.swift in Sources */,
 				ED887E282C36F05C00F7314E /* GFTextField.swift in Sources */,
 				ED887E242C36D36800F7314E /* FavoritesListVC.swift in Sources */,
